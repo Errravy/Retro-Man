@@ -1,0 +1,90 @@
+{
+    "name": "Game",
+    "maps": [
+        {
+            "name": "Run",
+            "id": "8560035a-4775-45ce-be73-71d862a0ec51",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "d27abaf0-a648-4398-9064-7b611d5c53a3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "69c51b36-be3e-4a5b-9e34-44fcc6828e00",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Fly",
+            "id": "56efbf53-5871-4380-a6e6-6e68456579eb",
+            "actions": [
+                {
+                    "name": "Gravity",
+                    "type": "Button",
+                    "id": "509c240c-da8b-42f6-bb87-a532a280d0f8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "590680a2-9b1a-4b93-ad1b-fce672ff0e80",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gravity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Wall",
+            "id": "d1bb770f-fb48-4378-82e5-425e1e3438d4",
+            "actions": [
+                {
+                    "name": "Side",
+                    "type": "Button",
+                    "id": "82d4a86a-8146-4437-a9de-6a8fc00abf3f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4d036bc3-e6ba-4bdb-97ea-d42b87066a7d",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Side",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
